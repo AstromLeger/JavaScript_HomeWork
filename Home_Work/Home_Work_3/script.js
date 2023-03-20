@@ -36,39 +36,39 @@
 // console.log(`Третье число ${thirdNumber}`)
 // console.log(`Mаксимальное число ${max}`)
 
-// Задание 4
-let firstNumber = +prompt(`Введите первое число`)
-let secondNumber = +prompt(`Введите второе число`)
-console.log(`Сумма чисел ${firstNumber} и ${secondNumber} = ${Sum(firstNumber, secondNumber)}`)
-console.log(`Разность чисел ${firstNumber} и ${secondNumber} = ${Raznost(firstNumber, secondNumber)}`)
-console.log(`Произведение чисел ${firstNumber} и ${secondNumber} = ${Proizvedenie(firstNumber, secondNumber)} `)
-console.log(`Частное чисел ${firstNumber} и ${secondNumber} = ${Chastnoe(firstNumber, secondNumber)} `)
-function Sum(num1, num2) {
-  return num1 + num2
-}
-function Raznost(num1, num2) {
-  let min = 0
-  let max = 0
-  if (num1 > num2) {
-    min = num2
-    max = num1
-  } else if (num1 < num2){
-    min = num1
-    max = num2
-  }
-  else {
-    console.log(`0 так как числа равны`)
-  }
-  return max - min
+// // Задание 4
+// let firstNumber = +prompt(`Введите первое число`)
+// let secondNumber = +prompt(`Введите второе число`)
+// console.log(`Сумма чисел ${firstNumber} и ${secondNumber} = ${Sum(firstNumber, secondNumber)}`)
+// console.log(`Разность чисел ${firstNumber} и ${secondNumber} = ${Raznost(firstNumber, secondNumber)}`)
+// console.log(`Произведение чисел ${firstNumber} и ${secondNumber} = ${Proizvedenie(firstNumber, secondNumber)} `)
+// console.log(`Частное чисел ${firstNumber} и ${secondNumber} = ${Chastnoe(firstNumber, secondNumber)} `)
+// function Sum(num1, num2) {
+//   return num1 + num2
+// }
+// function Raznost(num1, num2) {
+//   let min = 0
+//   let max = 0
+//   if (num1 > num2) {
+//     min = num2
+//     max = num1
+//   } else if (num1 < num2){
+//     min = num1
+//     max = num2
+//   }
+//   else {
+//     console.log(`0 так как числа равны`)
+//   }
+//   return max - min
 
-  // Можно было проще - результату разности присвоить умножение на -1
-}
-function Proizvedenie(num1, num2) {
-  return num1 * num2
-}
-function Chastnoe(num1, num2) {
-  return num1 / num2
-}
+//   // Можно было проще - результату разности присвоить умножение на -1
+// }
+// function Proizvedenie(num1, num2) {
+//   return num1 * num2
+// }
+// function Chastnoe(num1, num2) {
+//   return num1 / num2
+// }
 
 
 
