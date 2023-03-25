@@ -74,50 +74,49 @@
 // Задание 4
 // 1. Необходимо вывести в консоль массив продуктов в котором есть хоть одна фотография используя метод filter. Исходные данные - массив products.
 // 2. Необходимо отсортировать массив products используя метод sort по цене, начиная с самой маленькой, заканчивая самой большой ценой, после чего вывести отсортированный массив в консоль.
-const products = [
-{
-id: 3,
-price: 127,
-photos: [
-"1.jpg",
-"2.jpg",
-],
-},
-{
-id: 5,
-price: 499,
-photos: [],
-},
-{
-id: 10,
-price: 26,
-photos: [
-"3.jpg",
-],
-},
-{
-id: 8,
-price: 78,
-},
-];
-const products2 = produktsPicture()
-console.log(products);
-console.log(products2);
+// const products = [
+// {
+// id: 3,
+// price: 127,
+// photos: [
+// "1.jpg",
+// "2.jpg",
+// ],
+// },
+// {
+// id: 5,
+// price: 499,
+// photos: [],
+// },
+// {
+// id: 10,
+// price: 26,
+// photos: [
+// "3.jpg",
+// ],
+// },
+// {
+// id: 8,
+// price: 78,
+// },
+// ];
+// const products2 = produktsPicture()
+// console.log(products);
+// console.log(products2);
+// function produktsPicture() {
+//   const products2 = products.filter(product => 'photos' in product &&  product.photos.length !== 0)
+//   return products2
+// }
+// const products3 = products.sort((product1, product2) => product1.price - product2.price)
+// console.log(products3);
+
+//// Со строки 113 по строку 117 включительно, варианты решения задания 4 сразу через console.log()
+//// console.log(products2.filter(product => 'photos' in product && 
+//// product.photos.length !== 0));
+//// console.log(products.sort((product1, product2) => 
+//// product1.price - product2.price));
 
 
-function produktsPicture() {
-  const products2 = products.filter(product => 'photos' in product &&  product.photos.length !== 0)
-  return products2
-}
-
-// console.log(products2.filter(product => 'photos' in product && 
-// product.photos.length !== 0));
-
-// console.log(products.sort((product1, product2) => 
-// product1.price - product2.price));
-
-const products3 = products.sort((product1, product2) => product1.price - product2.price)
-console.log(products3);
 // **Задание 5**
 // Дано 2 массива 
 
