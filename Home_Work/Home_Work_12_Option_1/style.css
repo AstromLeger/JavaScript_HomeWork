@@ -1,0 +1,1028 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  /* max-width: 100%; */
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.navigation {
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Menu_button {
+  background: #222222;
+  border: none;
+}
+
+.container1 {
+  display: flex;
+  gap: 41px;
+  margin: 18px 0 19px 231px;
+}
+
+.container2 {
+  display: flex;
+  gap: 33px;
+  margin: 26px 240px 20px 0;
+}
+
+.Container_Zagolovka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Zagolovok {
+  display: flex;
+  flex-direction: column;
+  border-left: 12px solid #f16d7f;
+  max-width: 415px;
+  height: 92px;
+  margin: -90px 0 0 63px;
+}
+
+.Zagolovok_h1 {
+  padding-left: 16px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: "Lato";
+  font-style: normal;
+  color: #222222;
+}
+
+.Zagolovok_h3 {
+  padding-left: 16px;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 38px;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+.Zagolovok_h3 span {
+  color: #f16d7f;
+}
+
+.title_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f1e4e6;
+}
+
+.Spisok_Menu {
+  /* margin: 0 0 67px 75px; */
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.Inviz{
+  display: none;
+}
+
+.Pologenie{
+  padding: 0 0 82px 74px;
+}
+
+.Spisok_Menu ul {
+  list-style-type: none;
+  padding: 12px 99px 20px 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Spisok_Menu a{
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+}
+
+.Spisok_Menu h4{
+  padding: 24px 0 0 32px;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #F16D7F;
+}
+
+.Spisok_Menu h3{
+  padding: 32px 144px 0 33px;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+main {
+  margin-bottom: 65px;
+}
+
+.Pervaay_polovina {
+  padding: 0 230px;
+  margin-bottom: 96px;
+}
+
+.firsts_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.Picture1 {
+  background-image: url(./img/Picture1.png);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 260px;
+}
+
+.Text_Picture1 {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Picture2 {
+  background-image: url(./img/Picture2.png);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 260px;
+}
+
+.Text_Picture2 {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Picture3 {
+  background-image: url(./img/Picture3.png);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 260px;
+}
+
+.Text_Picture3 {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Picture4 {
+  background-image: url(./img/Picture4.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  width: 1140px;
+  height: 180px;
+}
+
+.Text_Picture4 {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Vtoraay_polovina {
+  padding: 0 230px;
+  margin-bottom: 60px;
+}
+
+.IMG_Vtoroy_poloviniy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.Zakaz_img{
+  width: 262px;
+  height: 306px;
+}
+
+.Zakaz{
+  width: 652px;
+  height: 306px;
+  display: flex;
+  box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+
+.Zakaz_h2{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #222222;
+margin-bottom: 42px;
+}
+
+.Zakaz_text{
+  width: 262px;
+  padding: 22px 0 0 31px;
+}
+
+.Zakaz_p{
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #575757;
+}
+
+.input_Zakaz{
+  width: 44px;
+  margin-left: 24px;
+}
+
+.Zakaz_close{
+  margin: 28px 22px 57px 80px;
+}
+
+.price{
+  color: rgba(239, 91, 112, 1);
+}
+
+.color, .size{
+  color: #6f6e6e;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.Picture_In_Black {
+  /* background-image: url(./img/Picture6.png); */
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 420px;
+}
+
+.Button_Kupit {
+  background: rgba(58, 56, 56, 0.86);
+  align-items: center;
+  justify-content: center;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.Picture_In_Black:hover .Button_Kupit {
+  display: flex;
+}
+
+.Button_Kupit button {
+  background: rgba(58, 56, 56, 0.46);
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.Button_Kupit h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 14px 13px 12px 0;
+}
+
+.Button_Kupit img {
+  padding: 11px 11px 8px 13px;
+}
+
+.Otstup_Vtor_Pol {
+  background: #f8f8f8;
+}
+
+.Prom_Text {
+  text-align: center;
+  padding: 0 0 48px 0;
+}
+
+.Pervaay_polovina h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.Pervaay_polovina h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.Vtoraay_polovina h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+
+.color_h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 25px 196px 0 16px;
+}
+
+.color_money {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+  padding: 26px 292px 19px 16px;
+}
+
+.Vtoraay_polovina p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  padding: 6px 29px 0px 16px;
+}
+
+.Nignaay_knopka {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 34px 0;
+}
+
+.Nignaay_knopka button:hover {
+  background: #f16d7f;
+  color: #ffffff;
+}
+
+.Nignaay_knopka button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  padding: 14px 38px;
+  border: 1px solid #ff6a6a;
+  background-color: #ffffff;
+}
+
+.DSG {
+  background: #222224;
+}
+
+.Group_DSG {
+  padding: 103px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Dostavka {
+  width: 360px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Dostavka img {
+  width: 45px;
+  height: 32px;
+}
+
+.Dostavka_IMG {
+  padding: 0 0 28px 0;
+}
+
+.Skidki {
+  width: 360px;
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Skidki img {
+  width: 40px;
+  height: 40px;
+}
+
+.Skidki_IMG {
+  padding: 0 0 19px 0;
+}
+
+.Garantiay {
+  width: 360px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Garantiay img {
+  width: 47px;
+  height: 35px;
+}
+
+.Garantiay_IMG {
+  padding: 0 0 25px 0;
+}
+
+.DSG_h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbfbfb;
+  padding: 0 0 16px 0;
+}
+
+.DSG_p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.Fon_Subscribe {
+  background-image: url(./img/photoSubscribe.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Fon_Subscribe img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 30px;
+}
+
+.Fon_Part1 {
+  padding: 87px 0 126px 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Fon_Part1 h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+  width: 360px;
+  height: 99px;
+}
+
+.Fon_Part2 {
+  padding: 150px 230px 156px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Text_Fon_Part2 {
+  width: 557px;
+  height: 61px;
+  margin-bottom: 32px;
+}
+
+.Text_Fon_Part2 h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #222224;
+  margin-bottom: 10px;
+}
+
+.Text_Fon_Part2 h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30%;
+  text-align: center;
+  color: #222224;
+}
+
+form {
+  display: flex;
+}
+
+.Input {
+  padding: 7px 64px 6px 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #222224;
+  opacity: 0.67;
+  border-radius: 22px 0 0 22px;
+  border: none;
+}
+
+.Email_Button {
+  background: #f16d7f;
+
+  padding: 7px 7px 6px 8px;
+  border-radius: 0 28px 28px 0;
+  border: none;
+}
+
+.Text_Button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 8px 10px 10px;
+}
+
+.Podval {
+  background: #222224;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nignaay_Podpis {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+  padding: 30px 0 30px 235px;
+}
+
+.Ssulki {
+  display: flex;
+  align-items: center;
+  padding: 24px 230px 23px 0;
+  gap: 7px;
+}
+
+.Facebook_Ssulka {
+  padding: 8px 22px 9px 12px;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+}
+
+.Instagram_Ssulka {
+  padding: 8px 8px;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+}
+
+.Vektor_Ssulka {
+  padding: 8px 10px;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+}
+
+.Twitter_Ssulka {
+  padding: 10px 8px;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+}
+
+.Facebook_Ssulka:hover {
+  background: #f16d7f;
+}
+
+.Facebook_Ssulka:hover svg {
+  fill: #ffffff;
+}
+
+.Instagram_Ssulka:hover {
+  background: #f16d7f;
+}
+
+.Instagram_Ssulka:hover svg {
+  fill: #ffffff;
+}
+
+.Vektor_Ssulka:hover {
+  background: #f16d7f;
+}
+
+.Vektor_Ssulka:hover svg {
+  fill: #ffffff;
+}
+
+.Twitter_Ssulka:hover {
+  background: #f16d7f;
+}
+
+.Twitter_Ssulka:hover svg {
+  fill: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+
+  .container1 {
+    margin: 18px 0 18px 32px;
+  }
+
+  .container2 {
+    margin: 19px 32px 18px 0;
+  }
+
+  .title_text img {
+    width: 386px;
+    height: 368px;
+  }
+
+  .Pologenie{
+    padding: 0 0 0 0;
+  }
+
+  .Zagolovok {
+    margin: 0 0 0 0;
+  }
+
+  .Zagolovok_h1 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  .Zagolovok_h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .Container_Zagolovka {
+    padding: 0 0 0 39px;
+  }
+
+  .Pervaay_polovina {
+    padding: 0 16px;
+  }
+
+  .firsts_3 {
+    gap: 20px;
+  }
+
+  .Picture1 {
+    background-size: 232px 168px;
+    width: 232px;
+    height: 168px;
+  }
+
+  .Text_Picture1 {
+    padding: 59px 39px 58px 38px;
+  }
+
+  .Texts_Picture1 {
+    width: 154px;
+    height: 50px;
+  }
+
+  .Picture2 {
+    background-size: 232px 168px;
+    width: 232px;
+    height: 168px;
+  }
+
+  .Text_Picture2 {
+    padding: 59px 39px 58px 38px;
+  }
+
+  .Picture3 {
+    background-size: 232px 168px;
+    width: 232px;
+    height: 168px;
+  }
+
+  .Text_Picture3 {
+    padding: 59px 39px 58px 38px;
+  }
+
+  .Picture4 {
+    background-size: 735px 116px;
+    width: 735px;
+    height: 116px;
+  }
+
+  .Text_Picture4 {
+    padding: 33px 286px;
+  }
+
+  .Texts_Picture2 {
+    width: 160px;
+    height: 50px;
+  }
+
+  .Vtoraay_polovina {
+    padding: 0 16px;
+    margin-bottom: 60px;
+  }
+
+  .IMG_Vtoroy_poloviniy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .Group_DSG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .Fon_Subscribe {
+    background-image: url(./img/photo\ subscribe.png);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Fon_Part1 {
+    padding: 64px 204px 48px 204px;
+  }
+
+  .Fon_Part2 {
+    padding: 0px 106px 140px 105px;
+  }
+
+  .Nignaay_Podpis {
+    padding: 30px 0 30px 32px;
+  }
+
+  .Ssulki {
+    padding: 24px 32px 23px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
+
+  .container1 {
+    margin: 0 auto;
+    padding: 18px 0 18px 16px;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 200px;
+  }
+
+  .Accaunt,
+  .Korzina,
+  .title_text img {
+    display: none;
+  }
+
+  .title_text {
+    padding: 148px 56px;
+  }
+
+  .Pologenie{
+    padding: 0 0 0 0;
+  }
+
+  .Zagolovok {
+    height: 70px;
+    margin: 0 0 0 0;
+  }
+
+  .Zagolovok_h1 {
+    padding-left: 15px;
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .Zagolovok_h3 {
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .Pervaay_polovina {
+    padding: 0 16px;
+    margin-bottom: 64px;
+  }
+
+  .firsts_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+
+  .Picture1 {
+    background-size: 343px 247px;
+    width: 343px;
+    height: 247px;
+  }
+
+  .Text_Picture1 {
+    padding: 98px 95px;
+  }
+
+  .Texts_Picture1 {
+    width: 154px;
+    height: 50px;
+  }
+
+  .Picture2 {
+    background-size: 344px 249px;
+    width: 344px;
+    height: 249px;
+  }
+
+  .Text_Picture2 {
+    padding: 102px 73px 76px 73px;
+  }
+
+  .Picture3 {
+    background-size: 343px 248px;
+    width: 343px;
+    height: 248px;
+  }
+
+  .Text_Picture3 {
+    padding: 105px 90px 72px 90px;
+  }
+
+  .Picture4 {
+    background-size: 343px 111px;
+    width: 343px;
+    height: 111px;
+  }
+
+  .Text_Picture4 {
+    padding: 30px 92px;
+  }
+
+  .Texts_Picture2 {
+    width: 160px;
+    height: 50px;
+  }
+
+  .Prom_Text {
+    padding: 0 0 65px 0;
+  }
+
+  .Prom_Text p {
+    padding: 3px 14px 0px 10px;
+  }
+
+  .Vtoraay_polovina {
+    padding: 0 8px;
+    margin-bottom: 85px;
+  }
+
+  .IMG_Vtoroy_poloviniy {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 17px;
+  }
+
+  .Group_DSG {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 13px 81px 14px;
+    gap: 46px;
+  }
+
+  .Fon_Subscribe {
+    background-image: url(./img/photo\ subscribe3.png);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Fon_Part1 {
+    padding: 64px 204px 48px 204px;
+  }
+
+  .Fon_Part2 {
+    padding: 0px 106px 70px 105px;
+  }
+
+  .Podval {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Ssulki {
+    padding: 43px 113px 40px 114px;
+  }
+
+  .Nignaay_Podpis {
+    padding: 0 62px 9px 62px;
+  }
+}
